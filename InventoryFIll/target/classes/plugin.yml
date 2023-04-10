@@ -1,0 +1,18 @@
+name: InventoryFIll
+version: '1.0-SNAPSHOT'
+main: jamster.inventoryfill.InventoryFIll
+softdepend: [Vault]
+commands:
+  pot:
+    description: Adds Pots to fill the senders Inventory
+    usage: /pot
+    aliases: pots, p
+  pots:
+    description: Adds Pots to fill the senders Inventory
+    usage: /pots
+  p:
+    description: Adds Pots to fill the senders Inventory
+    usage: /p
+  fill:
+    description: Adds Pots to fill the senders Inventory
+    usage: /fill
